@@ -2,9 +2,10 @@
   "name": "activity",
   "version": "1.0.0",
   "description": "activity one coderhouse",
-  "main": "./src/user.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node src/user.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/IvanGRZ/clasesJavascript/issues"
   },
-  "homepage": "https://github.com/IvanGRZ/clasesJavascript#readme"
+  "homepage": "https://github.com/IvanGRZ/clasesJavascript#readme",
+  "type": "module"
 }
